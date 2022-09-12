@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #this is so confusing
 x=1
-while [ $x -1e 20 ]
+while [ $x -le 20 ]
 do
 echo "$x"
 case $x in
