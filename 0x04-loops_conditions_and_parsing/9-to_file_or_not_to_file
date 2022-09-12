@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 #bash sux
 file="school"
-if [ -e $file ]
-then
+if [ -e $file ] then
 echo "$file file exists"
 if [ -s $file]
 then
